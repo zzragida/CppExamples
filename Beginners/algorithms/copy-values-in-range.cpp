@@ -2,7 +2,7 @@
 #include <algorithm>
 #include <vector>
 
-int main()
+void copy_values_in_range()
 {
   std::vector<int> numbers = {1, 2, 3, 5, 6, 3, 4, 1};
 

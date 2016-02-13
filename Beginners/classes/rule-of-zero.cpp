@@ -14,7 +14,7 @@ public:
   std::unique_ptr<int> p = std::make_unique<int>(5);
 };
 
-int main()
+void rule_of_zero()
 {
   foo f1;
   foo f2 = f1;

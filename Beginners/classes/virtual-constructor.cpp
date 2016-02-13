@@ -22,10 +22,10 @@ public:
 
 void foo(std::unique_ptr<Base> original)
 {
-  std::unique_ptr<Base> copy{ original->clone(); };
+  std::unique_ptr<Base> copy{ original->clone() };
 }
 
-int main()
+void virtual_constructor()
 {
   std::unique_ptr<Base> p = std::make_unique<Derived>();
   foo(std::move(p));

@@ -23,7 +23,7 @@ public:
 
   foo& operator=(foo other)
   {
-    swap(*this, other);
+    //swap(*this, other);
     return *this;
   }
 
@@ -38,12 +38,12 @@ public:
     swap(first.p, second.p);
   }
 
-private
-  resource* p;
+private:
+    resource* p;
 };
 
 
-int main()
+void copy_and_swap()
 {
   foo f1, f2, f3;
   f2 = f1;

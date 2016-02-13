@@ -3,7 +3,7 @@
 #include <iterator>
 #include <functional>
 
-int main()
+void sort_range_of_elements()
 {
   std::array<int, 5> arr = {3, 4, 1, 5, 2};
 

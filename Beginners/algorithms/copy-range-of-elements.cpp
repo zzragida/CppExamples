@@ -1,6 +1,7 @@
 #include <vector>
 #include <algorithm>
 #include <iterator>
+#include <iostream>
 
 std::vector<int> target2(5);
 std::vector<int> target3;
@@ -18,8 +19,8 @@ void foo(RangeOfInts source)
             std::back_inserter(target3));
 }
 
-int main()
+void copy_range_of_elements()
 {
-  std::vector<int> vec = {5, 4, 3, 2, 1};
+  std::vector<int> vec = {5, 4, 3, 2, 1};  
   foo(vec);
 }
