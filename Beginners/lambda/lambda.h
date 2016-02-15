@@ -1,0 +1,9 @@
+void declaring_lambda_expressions1();
+void declaring_lambda_expressions2();
+void calling_lambda_expressions1();
+void calling_lambda_expressions2();
+void nesting_lambda_expressions();
+void high_order_lambda_expressions();
+void function_lambda_expression();
+void template_lambda_expression();
+void eh_lambda_expression();

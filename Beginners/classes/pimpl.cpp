@@ -1,28 +1,44 @@
-#include "foo.h"
+#include <memory>
 
-class foo::impl
+namespace ns
 {
-public:
-  void do_internal_work()
-  {
-    internal_data = 5;
-  }
+    class foo
+    {
+    public:
+        foo();
+        ~foo();
+        foo(foo&&);
+        foo& operator=(foo&&);
 
-private:
-  int internal_data = 0;
-};
+    private:
+        class impl;
+        std::unique_ptr<impl> pimpl;
+    };
 
-foo::foo() : pimpl{std::make_unique<impl>()}
-{
-  pimpl->do_internal_work();
+    class foo::impl
+    {
+    public:
+        void do_internal_work()
+        {
+            internal_data = 5;
+        }
+
+    private:
+        int internal_data = 0;
+    };
+
+    foo::foo() : pimpl{ std::make_unique<impl>() }
+    {
+        pimpl->do_internal_work();
+    }
+
+    foo::~foo() = default;
+    foo::foo(foo&&) = default;
+    foo& foo::operator=(foo&&) = default;
 }
-
-foo::~foo() = default;
-foo::foo(foo&&) = default;
-foo& foo::operator=(foo&&) = default;
 
 void pimpl()
 {
-  foo f;
+    ns::foo f;
 }
 
