@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\classes">
       <UniqueIdentifier>{006f8bd4-0bba-434e-95f8-3bfb3401d807}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\lambda">
+      <UniqueIdentifier>{bbd15bc3-8f94-4c06-a7f2-9f251a0b81e8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -51,6 +54,39 @@
     <ClCompile Include="..\classes\non-member-interfaces.cpp">
       <Filter>소스 파일\classes</Filter>
     </ClCompile>
+    <ClCompile Include="..\lambda\calling_lambda_expressions.cpp">
+      <Filter>소스 파일\lambda</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lambda\declaring_lambda_expressions.cpp">
+      <Filter>소스 파일\lambda</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lambda\nesting_lambda_expressions.cpp">
+      <Filter>소스 파일\lambda</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lambda\high_order_lambda_expressions.cpp">
+      <Filter>소스 파일\lambda</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lambda\function_lambda_expression.cpp">
+      <Filter>소스 파일\lambda</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lambda\template_lambda_expression.cpp">
+      <Filter>소스 파일\lambda</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lambda\eh_lambda_expression.cpp">
+      <Filter>소스 파일\lambda</Filter>
+    </ClCompile>
+    <ClCompile Include="..\classes\delegate-behavior-to-derived-classes.cpp">
+      <Filter>소스 파일\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\classes\lexicographic-ordering.cpp">
+      <Filter>소스 파일\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\classes\pimpl.cpp">
+      <Filter>소스 파일\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\classes\rule-of-five.cpp">
+      <Filter>소스 파일\classes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\algorithms\algorithms.h">
@@ -58,6 +94,9 @@
     </ClInclude>
     <ClInclude Include="..\classes\classes.h">
       <Filter>소스 파일\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lambda\lambda.h">
+      <Filter>소스 파일\lambda</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

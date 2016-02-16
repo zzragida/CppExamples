@@ -1,11 +1,33 @@
-﻿빌드 시작: 2016-02-13 오후 11:09:42
-     1>2 노드의 "E:\GithubWorkspace\CppExamples\Beginners\Beginners\Beginners.vcxproj" 프로젝트(ClCompile 대상)입니다.
+﻿빌드 시작: 2016-02-15 오후 10:52:06
+     1>2 노드의 "E:\GithubWorkspace\CppExamples\Beginners\Beginners\Beginners.vcxproj" 프로젝트(Build 대상)입니다.
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IE:\GithubWorkspace\CppExamples\Beginners /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
-         건너뛰고 있습니다... (관련된 변경 내용 없음)
          main.cpp
-     1>"E:\GithubWorkspace\CppExamples\Beginners\Beginners\Beginners.vcxproj" 프로젝트를 빌드했습니다(ClCompile 대상).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\GithubWorkspace\CppExamples\Beginners\Debug\Beginners.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\GithubWorkspace\CppExamples\Beginners\Debug\Beginners.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\GithubWorkspace\CppExamples\Beginners\Debug\Beginners.lib" /MACHINE:X86 "Debug\copy-range-of-elements.obj"
+         "Debug\copy-values-in-range.obj"
+         "Debug\sort-range-of-elements.obj"
+         "Debug\swap-containers.obj"
+         "Debug\swap-values.obj"
+         "Debug\copy-and-swap.obj"
+         "Debug\delegate-behavior-to-derived-classes.obj"
+         "Debug\lexicographic-ordering.obj"
+         "Debug\non-member-interfaces.obj"
+         Debug\pimpl.obj
+         "Debug\rule-of-five.obj"
+         "Debug\rule-of-zero.obj"
+         "Debug\virtual-constructor.obj"
+         Debug\calling_lambda_expressions.obj
+         Debug\declaring_lambda_expressions.obj
+         Debug\eh_lambda_expression.obj
+         Debug\function_lambda_expression.obj
+         Debug\high_order_lambda_expressions.obj
+         Debug\nesting_lambda_expressions.obj
+         Debug\template_lambda_expression.obj
+         Debug\main.obj
+         Beginners.vcxproj -> E:\GithubWorkspace\CppExamples\Beginners\Debug\Beginners.exe
+     1>"E:\GithubWorkspace\CppExamples\Beginners\Beginners\Beginners.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
 
 빌드했습니다.
 
-경과 시간: 00:00:00.09
+경과 시간: 00:00:00.67

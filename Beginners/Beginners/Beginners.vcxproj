@@ -149,14 +149,26 @@
     <ClCompile Include="..\algorithms\swap-containers.cpp" />
     <ClCompile Include="..\algorithms\swap-values.cpp" />
     <ClCompile Include="..\classes\copy-and-swap.cpp" />
+    <ClCompile Include="..\classes\delegate-behavior-to-derived-classes.cpp" />
+    <ClCompile Include="..\classes\lexicographic-ordering.cpp" />
     <ClCompile Include="..\classes\non-member-interfaces.cpp" />
+    <ClCompile Include="..\classes\pimpl.cpp" />
+    <ClCompile Include="..\classes\rule-of-five.cpp" />
     <ClCompile Include="..\classes\rule-of-zero.cpp" />
     <ClCompile Include="..\classes\virtual-constructor.cpp" />
+    <ClCompile Include="..\lambda\calling_lambda_expressions.cpp" />
+    <ClCompile Include="..\lambda\declaring_lambda_expressions.cpp" />
+    <ClCompile Include="..\lambda\eh_lambda_expression.cpp" />
+    <ClCompile Include="..\lambda\function_lambda_expression.cpp" />
+    <ClCompile Include="..\lambda\high_order_lambda_expressions.cpp" />
+    <ClCompile Include="..\lambda\nesting_lambda_expressions.cpp" />
+    <ClCompile Include="..\lambda\template_lambda_expression.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\algorithms\algorithms.h" />
     <ClInclude Include="..\classes\classes.h" />
+    <ClInclude Include="..\lambda\lambda.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
